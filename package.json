@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "author": "ban_yan <15029296293@163.com>",
+  "scripts": {
+    "dev": "cross-env UMI_ENV=dev umi dev",
+    "build": "cross-env UMI_ENV=pro umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "^5.19.1",
+    "cross-env": "^7.0.3",
+    "umi": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@umijs/plugins": "^4.3.1",
+    "typescript": "^5.0.3"
+  }
+}
