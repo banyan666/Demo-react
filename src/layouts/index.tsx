@@ -12,6 +12,10 @@ const items = [
         key: 'page2',
         label: '页面1',
     },
+    {
+        key: 'page3',
+        label: '页面2',
+    },
 ];
 const onClick = (e) =>{
     console.log(e,'ee')
